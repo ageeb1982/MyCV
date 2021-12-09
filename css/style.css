@@ -1,0 +1,232 @@
+body {
+    background-color: #9babc5 !important; 
+    color: #22519f !important;
+    color: #31314b !important;
+}
+
+* {
+    font-family: 'Rakkas', cursive;
+    font-family: 'Amiri', serif;
+    ;
+}
+
+#mySection {
+    padding: 0;
+     margin-right: auto;
+     margin-left: auto;
+}
+
+#sideNav {
+    padding-left: 1rem;
+    /* padding-right: 1rem; */
+    background-image: 
+    /* linear-gradient(to right,#062961,rgb(30, 87, 97)) */
+    linear-gradient(to right, #062961, #092e6bfb)
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 0, 0.5) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: yellow !important;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+    font-weight: bolder;
+    font-size: 1.3rem;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+}
+
+#sideNav .navbar-toggler:focus {
+    outline-color: #d48a6e;
+}
+
+@media (min-width: 992px) {
+    #sideNav {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        width: 17rem;
+        height: 100vh;
+    }
+#mySection {
+    padding: 0;
+    margin-right: 18rem !important;
+    margin-left: auto;
+}
+    #sideNav .navbar-brand {
+        display: flex;
+        margin: auto auto 0;
+        padding: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    #sideNav .navbar-brand .img-profile {
+        max-width: 15rem;
+        
+        max-height: 10rem;
+        margin: auto auto 0;
+        border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    }
+
+    #sideNav .navbar-collapse {
+        display: flex;
+        align-items: flex-start;
+        flex-grow: 0;
+        width: 100%;
+        margin-bottom: auto;
+    }
+
+    #sideNav .navbar-collapse .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #sideNav .navbar-collapse .navbar-nav .nav-item {
+        display: block;
+    }
+
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+        display: block;
+    }
+}
+.social-icons{
+    text-align: center;
+}
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin: 1%;
+
+}
+
+
+
+
+
+/* .social-icons .social-icon:hover {
+    background-color: #bd5d38;
+} */
+
+.phone:hover {
+    background-color: green;
+}
+
+.whatsapp:hover {
+    background-color: #23c861;
+}
+
+.gmail:hover {
+    background-color: #d14438;
+}
+
+.web:hover {
+    background-color: #2884d0;
+}
+
+.linkedin:hover {
+    background-color: #0a66c2;
+}
+
+.github:hover {
+    background-color: rgb(31, 29, 29);
+}
+
+.twitter:hover {
+    background-color: #1d9bf0;
+}
+
+
+
+.facebook:hover {
+    background-color: #0471e6;
+}
+
+.dev-icons {
+    font-size: 3rem;
+}
+
+section.resume-section {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    max-width: 75rem;
+}
+strong{
+    color:#062961;
+    text-shadow: 0.5px 0.5px rgb(0, 0, 0);
+}
+
+.h1 {
+    color: #062961;
+    text-align: center;
+    font-size: larger;
+text-shadow: 0.5px 0.5px rgb(0, 0, 0);
+}
+h2{
+    border-radius: 20%;
+    text-align: center;
+    border: #0262fd;
+    background-color:#062961;
+    padding-top:20px;
+    padding-bottom:30px;
+
+    height: 100%;
+
+    color:yellow;
+}
+h3 {
+    color: #0c54c9 !important;
+    text-shadow: 1px 1px black,
+     1px 1px 5px #747105 !important;
+}
+.card{
+    background-color: #bed2f1 !important;
+
+}
+.card-body{
+    text-align: center;
+}
+.card-footer{
+    text-align: center;
+}
+/* .mycards {
+    display: flex;
+    justify-content: space-between;
+} */
+section.resume-section .resume-section-content {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    section.resume-section {
+        min-height: 100vh;
+    }
+}
+
+@media (min-width: 992px) {
+    section.resume-section {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
