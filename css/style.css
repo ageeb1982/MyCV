@@ -38,11 +38,21 @@ body {
 .navbar-nav .nav-link:hover {}
 
 .myLink:hover,
-.active {
+.active,
+.navbar-toggler-icon {
     color: yellow !important;
     text-shadow: 0 0 black;
-}
 
+}
+.navbar-toggler-icon{
+    color: yellow;
+}
+.miniMenu{
+    display: flex;
+}
+.miniMenu a{
+    padding-left: 1rem;
+}
 #sideNav .navbar-nav .nav-item .nav-link {
     font-weight: bolder;
     font-size: 1.3rem;
