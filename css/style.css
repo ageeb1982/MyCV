@@ -44,15 +44,46 @@ body {
     text-shadow: 0 0 black;
 
 }
-.navbar-toggler-icon{
+
+.navbar-toggler-icon {
     color: yellow;
 }
-.miniMenu{
+
+
+.miniMenu a {
+    font-size: 1.3rem;
+    padding-left: 0.3rem;
+
+}
+
+/* .miniMenu a:first-child {
+    padding-right: 2rem;
+} */
+.navbar-brand {
     display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+    width: 100%;
+    margin-right: 0% !important;
+    padding-right: 0% !important;
+    margin-left: 1px !important;
+    /* background-color: white; */
 }
-.miniMenu a{
-    padding-left: 1rem;
+
+.miniMenu {
+    display: flex;
+
 }
+
+.brandX {
+    /* margin-left: 2rem; */
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
     font-weight: bolder;
     font-size: 1.3rem;
@@ -64,62 +95,6 @@ body {
     outline-color: #d48a6e;
 }
 
-@media (min-width: 992px) {
-    #sideNav {
-        padding-left: 0;
-        padding-right: 0;
-        text-align: center;
-        position: fixed;
-        top: 0;
-        right: 0;
-        display: flex;
-        flex-direction: column;
-        width: 17rem;
-        height: 100vh;
-    }
-
-    #mySection {
-        padding: 0;
-        margin-right: 18rem !important;
-        margin-left: auto;
-    }
-
-    #sideNav .navbar-brand {
-        display: flex;
-        margin: auto auto 0;
-        padding: 0.5rem;
-        flex-wrap: wrap;
-    }
-
-    #sideNav .navbar-brand .img-profile {
-        max-width: 15rem;
-
-        max-height: 10rem;
-        margin: auto auto 0;
-        border: 0.5rem solid rgba(255, 255, 255, 0.2);
-    }
-
-    #sideNav .navbar-collapse {
-        display: flex;
-        align-items: flex-start;
-        flex-grow: 0;
-        width: 100%;
-        margin-bottom: auto;
-    }
-
-    #sideNav .navbar-collapse .navbar-nav {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    #sideNav .navbar-collapse .navbar-nav .nav-item {
-        display: block;
-    }
-
-    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
-        display: block;
-    }
-}
 
 .social-icons {
     text-align: center;
@@ -249,17 +224,130 @@ section.resume-section .resume-section-content {
     width: 100%;
 }
 
+.navbar {
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.navbar-brand strong {
+    font-size: 1.35rem;
+    /* padding-left: 1px; */
+}
+
+.miniMenu {
+    display: flex;
+    /* background-color: green; */
+    width: 70%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.brandX {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 40%;
+    /* background-color: red !important; */
+}
+
+@media (min-width: 768px) {
+    #sideNav {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        width: 17rem;
+        height: 100vh;
+    }
+
+    #mySection {
+        padding: 0;
+        margin-right: 18rem !important;
+        margin-left: auto;
+    }
+
+
+
+    #sideNav .navbar-brand .img-profile {
+        max-width: 15rem;
+
+        max-height: 10rem;
+        margin: auto auto 0;
+        border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    }
+
+    #sideNav .navbar-collapse {
+        display: flex;
+        align-items: flex-start;
+        flex-grow: 0;
+        width: 100%;
+        margin-bottom: auto;
+    }
+
+    #sideNav .navbar-collapse .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #sideNav .navbar-collapse .navbar-nav .nav-item {
+        display: block;
+    }
+
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+        display: block;
+    }
+}
+
+/* @media (min-width: 768px) { */
 @media (min-width: 768px) {
     section.resume-section {
         min-height: 100vh;
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     section.resume-section {
         padding-left: 3rem;
         padding-right: 3rem;
         padding-top: 5rem;
         padding-bottom: 5rem;
+    }
+}
+
+
+@media (min-width:320px) {
+
+
+    .miniMenu {
+        display: flex;
+        /* background-color: green; */
+        width: 65%;
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .brandX {
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+        margin-left: 0px;
+        margin-right: 0px;
+        /* width: 35%; */
+        /* background-color: red !important; */
+    }
+}
+
+@media (max-width: 767px) and (min-width:425px) {
+    .navbar-brand strong {
+        font-size: 1.3rem;
     }
 }
