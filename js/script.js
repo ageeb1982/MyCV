@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 let minix = document.getElementsByClassName("minix");
 let lnks = document.getElementsByClassName("nav-link");
 const mySec = document.getElementById("mySection");
@@ -15,6 +16,7 @@ var miniClick = function () {
     deActive();
     this.classList.add('active');
 };
+
 
 for (let i = 0; i < minix.length; i++) {
     minix[i].addEventListener('click', miniClick, false);
