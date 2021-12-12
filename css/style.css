@@ -311,6 +311,15 @@ section.resume-section .resume-section-content {
     text-align: center;
 }
 
+.award-text {
+    font-size: 1rem !important;
+}
+
+.award-icon {
+    font-size: 3rem !important;
+
+}
+
 @media (min-width: 768px) {
     #sideNav {
         padding-left: 0;
@@ -400,7 +409,7 @@ section.resume-section .resume-section-content {
 
 @media (max-width:1440px) {
     .card-color {
-        width: 20%;
+        width: 18%;
         margin-bottom: 2rem;
     }
 
@@ -408,19 +417,19 @@ section.resume-section .resume-section-content {
         width: 31%;
     }
 
-   .award-text {
-       font-size: 2rem !important;
-   }
+    .award-text {
+        font-size: 1.3rem !important;
+    }
 
-   .award-icon {
-       font-size: 3rem !important;
+    .award-icon {
+        font-size: 3rem !important;
 
-   }
+    }
 }
 
 @media (max-width:1024px) {
     .card-color {
-        width: 30%;
+        width: 18%;
         margin-bottom: 2rem;
     }
 
@@ -428,14 +437,14 @@ section.resume-section .resume-section-content {
         width: 45%;
     }
 
-   .award-text {
-       font-size: 2rem !important;
-   }
+    .award-text {
+        font-size: 1rem !important;
+    }
 
-   .award-icon {
-       font-size: 3rem !important;
+    .award-icon {
+        font-size: 3rem !important;
 
-   }
+    }
 }
 
 @media (max-width:768px) {
@@ -447,14 +456,15 @@ section.resume-section .resume-section-content {
     .mycards .card {
         width: 100%;
     }
-.award-text {
-    font-size: 1.7rem !important;
-}
 
-.award-icon {
-    font-size: 3rem !important;
+    .award-text {
+        font-size: 1rem !important;
+    }
 
-}
+    .award-icon {
+        font-size: 2rem !important;
+
+    }
 
 }
 
@@ -472,14 +482,14 @@ section.resume-section .resume-section-content {
         margin-bottom: 2rem;
     }
 
-   .award-text {
-       font-size: 1.3rem !important;
-   }
+    .award-text {
+        font-size: 1rem !important;
+    }
 
-   .award-icon {
-       font-size: 2rem !important;
+    .award-icon {
+        font-size: 2rem !important;
 
-   }
+    }
 }
 
 @media (max-width:320px) {
@@ -488,14 +498,14 @@ section.resume-section .resume-section-content {
         margin-bottom: 2rem;
     }
 
-  .award-text {
-      font-size: 1.2rem !important;
-  }
+    .award-text {
+        font-size: 1rem !important;
+    }
 
-  .award-icon {
-      font-size: 2rem !important;
+    .award-icon {
+        font-size: 2rem !important;
 
-  }
+    }
 
 
 }
